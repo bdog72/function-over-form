@@ -9,6 +9,30 @@ html {
 
 body {
   @include font-smoothing(on);
-  margin: 0;
+  margin: 50px;
   font: $base-text-size / 1 $base-font-family;
+  background-image: url('http://www.intrawallpaper.com/static/cache/8c/31/8c3111e9abbfd40e1457f401ecb101ee.jpg');
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  li {
+    width: 100px;
+    height: 300px;
+    list-style: none;
+    background: orange;
+    margin: 0 25px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+}
+button {
+  font-size: 25px;
+}
+a {
+  margin-left: 55px;
+  font-size: 55px;
+  color: white;
 }
